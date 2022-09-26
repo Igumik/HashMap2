@@ -36,5 +36,13 @@ public class Main {
         System.out.println(map.entrySet());
         System.out.println(maxChar + " - " + Collections.max(map.values()));
         System.out.println(minChar + " - " + Collections.min(map.values()));
+
+        //TODO Вторая задача
+        WordsChecker word = new WordsChecker();
+        System.out.println();
+        System.out.println(word);
+        System.out.println(word.hasWord("ipsum"));
+
     }
+
 }
